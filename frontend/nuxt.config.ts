@@ -4,5 +4,10 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
     typescript: {
         shim: false
-    }
+    },
+    css: [
+        '@/assets/css/main.css'
+    ],
+    dev: true,
+    // ssr: false // Disable Server Side rendering
 })
