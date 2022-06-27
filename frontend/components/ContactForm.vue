@@ -47,10 +47,10 @@ async function submit() {
 
     const data = { name: name.value, email: email.value, message: message.value };
     console.log(data)
-    // let res = await $fetch('/api/email', {
-    //     method: 'POST',
-    //     body: data
-    // });
-    // console.log(res)
+    let res = await $fetch('/api/email', {
+        method: 'POST',
+        body: data
+    });
+    console.log(res)
 }
 </script>

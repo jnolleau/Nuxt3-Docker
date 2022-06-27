@@ -1,0 +1,5 @@
+#Credentials
+NUXT_MAIL_HOST=host
+NUXT_MAIL_PORT=465
+NUXT_MAIL_USER=email
+NUXT_MAIL_PASSWORD=my_password

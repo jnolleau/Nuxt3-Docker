@@ -6,7 +6,18 @@ export default defineNuxtConfig({
         shim: false,
         typeCheck: true
     },
-    app : {
+    runtimeConfig: {
+        // The private keys which are only available within server-side
+        // Keys within public, will be also exposed to the client-side
+        mailHost: '',
+        mailPort: '',
+        mailUser: '',
+        mailPassword: '',
+        public: {
+            apiBase: '/api'
+        }
+    },
+    app: {
 
         head: {
             meta: [
@@ -89,5 +100,5 @@ export default defineNuxtConfig({
     // build: {
     //     transpile: ['primevue'],
     // }
-    ssr: false // Disable Server Side rendering
+    // ssr: false // Disable Server Side rendering
 })
