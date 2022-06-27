@@ -1,0 +1,36 @@
+.main-container {
+   margin: auto;
+   min-height: 100vh;
+}
+
+.contact-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   // div {
+   // display: flex;
+   // flex-direction: column;
+   // align-items: center;
+   //    margin-top: 1rem;
+   // }
+}
+
+.w-full {
+   width: 100%;
+}
+
+.tar {
+   text-align: right;
+}
+
+.ex-slide {
+   padding: 9rem 4.5rem;
+   text-align: center;
+   color: #fff;
+   h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      line-height: 1.25;
+   }
+}

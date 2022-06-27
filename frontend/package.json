@@ -1,4 +1,6 @@
 {
+  "name": "nuxt3-project",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -7,6 +9,19 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.4"
+    "@types/nodemailer": "^6.4.4",
+    "nuxt": "latest",
+    "sass": "^1.52.3",
+    "sass-loader": "^13.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^3.0.1",
+    "@oruga-ui/oruga-next": "^0.5.5",
+    "@oruga-ui/theme-bulma": "^0.2.6",
+    "nodemailer": "^6.7.5"
   }
 }
